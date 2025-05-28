@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unique Quest Travel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: #333;
+    }
+
+    header {
+      background-color: purple;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: limegreen;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: purple;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: calc(33% - 10px);
+      border: 3px solid limegreen;
+      border-radius: 8px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin-top: 20px;
+    }
+
+    input, textarea, select {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 2px solid purple;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: purple;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+
+    footer {
+      background-color: limegreen;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Unique Quest Travel</h1>
+    <p>Your Adventure Starts Here</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#booking">Booking</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Unique Quest Travel, we specialize in creating personalized travel experiences for adventurers, families, and leisure seekers. Our team of travel experts works closely with you to plan every detail of your journey, ensuring your trip is both unforgettable and seamless.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Customized Vacation Planning</li>
+      <li>Group Tours and Excursions</li>
+      <li>Flight, Hotel, and Cruise Bookings</li>
+      <li>Travel Insurance & Visa Assistance</li>
+      <li>24/7 Customer Support While You Travel</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Beach+Paradise" alt="Beach Paradise" />
+      <img src="https://via.placeholder.com/300x200?text=Mountain+Adventure" alt="Mountain Adventure" />
+      <img src="https://via.placeholder.com/300x200?text=City+Exploration" alt="City Exploration" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or ready to start your adventure? Reach out today!</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Trip</h2>
+    <p>Let us know your travel details and we’ll get back to you with a custom plan!</p>
+    <form>
+      <input type="text" name="fullname" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <select name="destination" required>
+        <option value="">Select Destination</option>
+        <option value="paris">Paris</option>
+        <option value="bali">Bali</option>
+        <option value="newyork">New York</option>
+        <option value="tokyo">Tokyo</option>
+      </select>
+      <input type="date" name="startdate" required />
+      <input type="number" name="nights" placeholder="Number of Nights" required />
+      <textarea name="requests" placeholder="Special Requests or Notes"></textarea>
+      <input type="submit" value="Submit Booking Request" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Unique Quest Travel. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#" title="Facebook">&#x1F426;</a>
+      <a href="#" title="Instagram">&#x1F33C;</a>
+      <a href="#" title="Twitter">&#x1F426;</a>
+    </div>
+  </footer>
+
+</body>
+</html>
